@@ -1,31 +1,21 @@
 .App {
-  background-image: 
+  /* background-image: 
     url('images/fire-and-ice.jpg'),
-    linear-gradient(to bottom right, #000,#000);
-  opacity: .9;
-  background-size: cover;
+    linear-gradient( #000,#000);
+  background-size: cover; 
+  opacity: .85; */
   text-align: center;
 }
 
 .App-header {
-  /* background-image: 
-    linear-gradient(to bottom right,  red, blue);
-  opacity: .6; */
-  /* background-image: url('/images/fire-and-ice.jpg') */
-  height: 200px;
-  padding: 20px;
-  color: white;
+  padding-top: 50px;
+  padding-bottom: 10px;
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 .App-intro {
   font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
